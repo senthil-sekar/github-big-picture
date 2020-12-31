@@ -1,7 +1,5 @@
 # Github - The Big Picture
 
-# Introduction to Git
-
  - Git is a version control tool
  - Git codebase is free and open-source software distributed under the terms of the GNU General Public License
  - Git is a distributed version-control system
