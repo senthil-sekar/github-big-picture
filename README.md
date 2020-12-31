@@ -17,13 +17,19 @@ When you do actions in Git, nearly all of them only add data to the Git databa
 
 # Centralized Version Control System vs Distributed Version Control System
 
+![cvcs-vs-dvcs](https://github.com/senthil-sekar/github-big-picture/blob/main/cvcs-vs-dvcs.png?raw=true)
+
 In CVCS, the developer has a copy of the repository file system on his machine. So offline actions like commits (check-ins)  and seeing history are impossible since the local repository can’t save “changes”. 
 
 DVCS means each developer has the entire repository, including the entire change history on his/her local machine. So the developer can see changeset history offline or commit (check-in) changes offline to his local repository.
 
 # How Git stores the check-ins?
 
+![git-check-ins](https://github.com/senthil-sekar/github-big-picture/blob/main/git-check-ins.png?raw=true)
+
 # The Three States
+
+![states](https://github.com/senthil-sekar/github-big-picture/blob/main/states.png?raw=true)
 
 # Most common Git Commands
 
@@ -52,7 +58,20 @@ DVCS means each developer has the entire repository, including the entire change
 
 # TFS vs Git
 
+![tfs-vs-git](https://github.com/senthil-sekar/github-big-picture/blob/main/tfs-vs-git.png?raw=true)
+
 # Proposed Git Flow (Branching Strategy)
+
+![git-flow](https://github.com/senthil-sekar/github-big-picture/blob/main/git-flow.png?raw=true)
+
+- Develop branch is created from master
+- Release branch is created from develop
+- Feature branches are created from develop
+- When a feature is complete, it is merged into the develop branch
+- When ready for prod release, a release branch is created from develop branch
+- When the release is done, the release branch is merged back into develop and master
+- If any production issue, a hotfix branch is created from master
+- Once the hotfix is complete, it is merged back into both develop and master
 
 # Useful Links
 
